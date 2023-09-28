@@ -1,0 +1,73 @@
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Lobster&display=swap");
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #a69b9f;
+  padding: 20px;
+  min-height: 100vh;
+}
+.heading {
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+  font-weight: 300;
+  color: #473f42;
+
+  margin-top: 10px;
+}
+.reset-button {
+  float: right;
+  margin-right: 20px;
+  background-color: #463e41;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+}
+
+.reset-button:hover {
+  background-color: #e64a19;
+}
+
+.todo-input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+.todo-list {
+  background-color: #ffffff7b;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.todo-item {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.todo-item:hover {
+  background-color: rgb(221, 219, 219);
+}
+
+.todo-item.completed {
+  background-color: #8f8085;
+  text-decoration: line-through;
+}
